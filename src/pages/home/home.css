@@ -1,0 +1,289 @@
+.shopbanner{
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    
+}
+.shopbanner img{
+    width: 100%;
+    opacity:0.8
+}
+.shopbanner .banner-text{
+    position: relative;
+    
+    background: linear-gradient(120deg, rgba(62, 65, 62, 0.774), rgba(39, 39, 39, 0.774));
+    color:#fff;
+    max-width: 500px;
+    padding: 5px 20px;
+}
+.shopbanner .text>:nth-child(1){
+    font-size:60px;
+    font-weight: 600;
+    border-bottom:1px double #fff;
+    text-transform: capitalize;
+}
+.shopbanner .text>:nth-child(2){
+    font-size:50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center!important;
+    display: block;
+}
+.shopbanner .text>:nth-child(3){
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+.featured-products-container{
+    padding: 30px 0px;
+}
+h2{
+    font-family: var(--headingFamily);
+    color: #333;
+    font-size:60px;
+    line-height: 35px;
+}
+h2 span{
+    display: block;
+    padding-left: 25px;
+    color: var(--goldColor)
+}
+.products-content{
+    padding: 10px 0px;
+}
+.products-content .card{
+    width: 100%;
+    border: 1px solid rgba(99, 97, 97, 0.329);
+}
+.products-content .card .img-div{
+    width: 100%;
+    background-color: rgba(138, 133, 133, 0.582);
+    height:200px;
+}
+.products-content .card img{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+.products-content .content{
+    padding-bottom: 15px;
+}
+.products-content .content{
+    text-align: center;
+    color:rgb(95, 95, 95);
+}
+.products-content .content .btn{
+    background-color: var(--goldColor);
+    color:#fff;
+    margin: 10px 0px;
+}
+.category-tile{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+.category-tile:hover{
+    transform: scale(1.05);
+}
+.card{
+    border: none;
+    width: 15rem
+}
+img.card-img-top.product-preview-img{
+    border-radius: 10px;
+}
+.sale-banner-container{
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    background: red;
+}
+
+
+/* css for products banner */
+.card-wrapper{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing:border-box;
+}
+.card-wrapper:active, .card-wrapper:focus, .card-wrapper:hover{
+    outline: none;
+    border: none
+}
+.card{
+    width: 100%;
+    height: fit-content;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(51, 51, 51, 0.322);
+    text-align: center;
+}
+.card .card-image{
+    /* position: absolute; */
+    top:0;
+    left:0;
+    width: 100%;
+    height: 300px;
+    z-index:2;
+    background-color: 000;
+    transition: .5s all ease;
+    /* background-size: cover;
+    background-position: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important; */
+}
+
+.card .card-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card:hover img{
+    opacity:.6;
+    transition: .8s;
+}
+.card:hover .card-image{
+    transform: translateY(-20px);
+    transition: all .9s;
+}
+.home-addtocart{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.home-addtocart button{
+    border:none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color:var(--goldColor);
+    font-family: var(--textFamily);
+    letter-spacing: 1px;
+    font-weight: 600;
+    transform: translateY(200px);
+    opacity: 0;
+}
+.card:hover .home-addtocart button{
+    transform: translateY(0px);
+    opacity:1
+}
+.card .content{
+    /* position: absolute; */
+    bottom:0px;
+    width: 100%;
+    height: 20%;
+    padding-bottom: 10px;
+}
+.content .btn{
+    cursor: pointer;
+    background: var(--goldColor);
+    color:#fff;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.slick-dots{
+    bottom: 2.5vw;
+    color: red!important;
+}
+.arrow{
+    font-size: 30px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+    display: flex;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    color: var(--goldColor);
+    z-index:10;
+    cursor: pointer;
+}
+.arrow-right{
+    right: -15px;
+}
+.arrow-left{
+    left: -15px;
+}
+
+/* css for banner */
+.Slider{
+    overflow: hidden;
+    width: 100%;
+}
+.home-banner{
+    width: 100%;
+    height: 70vh;
+    color:white;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.home-banner1{
+    background: url("../../assets/ban1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+    
+}
+.home-banner2{
+    background: url("../../assets/ban2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home-banner3{
+    background: url("../../assets/ban3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+}
+@media screen and (max-width: 768px) {
+    .home-banner{
+        height: 50vh;
+        padding-top: 150px;
+    }
+    .shopbanner .banner-text{
+        position: relative;
+        
+        background: linear-gradient(120deg, rgba(62, 65, 62, 0.774), rgba(39, 39, 39, 0.774));
+        color:#fff;
+        max-width: 400px;
+        padding: 5px 20px;
+    }
+    
+    .shopbanner .text>:nth-child(1){
+        font-size:30px;
+    }
+    .shopbanner .text>:nth-child(2){
+        font-size:30px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .home-banner{
+        padding-top: 100px;
+    }
+}

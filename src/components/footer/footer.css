@@ -1,0 +1,28 @@
+.footerpage{
+    margin-top: 20px;
+    background: linear-gradient(120deg, rgba(62, 65, 62, 0.774), rgba(39, 39, 39, 0.774));
+    color:#fff;
+    padding: 20px 0px;
+}
+
+.footerpage .img-div{
+    border: 1px solid #fff;
+    padding: 5px;
+    width: 55%;
+}
+.footerpage img{
+    width: 100%;
+    height: 70px;
+}
+
+.footerpage .title{
+    text-transform: uppercase;
+    font-weight: 600
+}
+.footer-nav{
+    color:#fff;
+    text-decoration: none;
+}
+.footer-nav span{
+    padding-left: 10px;
+}
